@@ -117,11 +117,11 @@ Used for **fake account classification**
 
 | Model               | Accuracy | F1 Score |
 | ------------------- | -------- | -------- |
-| Logistic Regression | 96%      | 0.96     |
-| KNN                 | 98%      | 0.98     |
-| Decision Tree       | 97%      | 0.97     |
-| Random Forest       | 98%      | 0.98     |
-| XGBoost             | **99%**  | **0.99** |
+| Logistic Regression | 96%      | 96%      |
+| KNN                 | 98%      | 98%      |
+| Decision Tree       | 97%      | 97%      |
+| Random Forest       | 98%      | 98%      |
+| XGBoost             | **99%**  | **99%**  |
 
 ### ⚖️ Model Selection
 
