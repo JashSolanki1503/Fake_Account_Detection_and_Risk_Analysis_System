@@ -139,7 +139,25 @@ elif page == "Account Analyzer":
 
     # Backend API connection 
     if analyze_button:
+        
+        # ----------- Input Validation -----------
 
+        if not username.strip():
+            st.error("❌ Username cannot be empty")
+            st.stop()
+
+        if not fullname.strip():
+            st.error("❌ Full name cannot be empty")
+            st.stop()
+
+        if posts < 0 or followers < 0 or follows < 0:
+            st.error("❌ Numeric values cannot be negative")
+            st.stop()
+
+        if followers == 0 and follows == 0:
+            st.warning("⚠️ Both followers and following are zero — unusual account")
+
+            
         # Create the raw input
         raw_input = {
             "username": username,

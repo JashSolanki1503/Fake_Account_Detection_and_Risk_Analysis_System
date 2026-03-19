@@ -162,7 +162,7 @@ Used for **behavioral analysis**
 ---
 
 ## 📁 Project Structure
-
+```
 Fake_Account_Project/
 │
 ├── app.py # Streamlit main application
@@ -191,7 +191,7 @@ Fake_Account_Project/
 ├── requirements.txt # Project dependencies
 ├── .gitignore # Files to ignore in Git
 ├── README.md # Project documentation
-
+```
 ---
 
 ## 📊 Dashboard Features (Streamlit)
