@@ -213,7 +213,7 @@ elif page == "Account Analyzer":
         col1, col2, col3 = st.columns(3)
 
         with col1:
-            st.metric("Fake Probability", f"{prob*100:.2f}")
+            st.metric("Fake Probability", f"{prob*100:.2f}%")
 
         with col2:
             st.metric("Risk Level", risk)
