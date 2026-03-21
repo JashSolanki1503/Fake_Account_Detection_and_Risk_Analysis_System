@@ -207,7 +207,7 @@ Fake_Account_Project/
 
 ## 🌐 Live Demo
 
-🚀 Deployed App: _Coming Soon..._
+🚀 Deployed App: https://fake-account-risk-dashboard.streamlit.app/
 
 ---
 
