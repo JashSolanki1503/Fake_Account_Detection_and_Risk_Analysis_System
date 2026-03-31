@@ -1,4 +1,4 @@
-# 🚀 Fake Account Detection & Risk Analysis Dashboard
+# 🔐 Fake Account Detection & Risk Analysis Dashboard
 
 ## 📌 Project Overview
 
